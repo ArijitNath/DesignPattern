@@ -1,0 +1,6 @@
+The strategy design pattern is used in the Pull and Push workflow
+The protocolMetadataService interface has 2 implementations :
+	1. For the pull workflow, it has to read from the ProtocolMetadataDB.json file
+	2. For Push Workflow, it has to write to the file
+	
+The two separate implementations are sent to the ProtocolMetadataScevice for the 2 separate workflows 
