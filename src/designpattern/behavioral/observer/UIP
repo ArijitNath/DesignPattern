@@ -1,0 +1,7 @@
+The Observer Design pattern is used in our project when performing polling to the SQS for messages.
+During agent startup all the Messagehandlers registers to the Polling AWSRequestListener subject. 
+When polling gets a message, the subject notifies the observers(Message Handler) of the message.
+The MessageHandler spawns of the Pull/Push workflow
+
+Another place where Observer Design pattern is used in our project is during the Scanner busy ECom service registration. Our service scan register to start and stop event of the exam.
+when scan starts or stops, our service is notified of the same and then we can perform necessary actions.
