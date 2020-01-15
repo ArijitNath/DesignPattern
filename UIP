@@ -1,0 +1,5 @@
+The Chain of Responsibility pattern is used in multiple places in our project.
+
+1. Pull workflow : The pull workflow is governed by the chain of responsibility design pattern
+2. Push workflow
+3. Commit workflow 
