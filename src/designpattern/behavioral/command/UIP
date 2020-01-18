@@ -1,0 +1,2 @@
+The Command Design pattern is used in a small area in our project. The Scanner busy Observer Service uses the command design pattern to invoke IPMStopService or IPMStartService depending 
+upon the scan status send by the ECom endpoint   
